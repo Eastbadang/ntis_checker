@@ -1,0 +1,31 @@
+# 1. 인증키 및 환경 설정 (보안 필수)
+.env
+*.env
+settings.json
+
+# 2. 파이썬 캐시 및 가상환경
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# 3. GUI 빌드 산출물 (build_exe 관련)
+build/
+dist/
+*.spec
+
+# 4. NTIS API 및 검색 결과 출력물 (개인정보·대용량 데이터)
+search_out/
+*.jsonl
+ntis_results_raw.jsonl
+ntis_results_enriched.csv
+진단결과.csv
+kisti_lookup.csv
+
+# 5. OS 및 IDE 설정 파일
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

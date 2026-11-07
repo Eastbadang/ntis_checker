@@ -1,0 +1,15 @@
+{
+  "kisti_db_path": "",
+  "use_kisti": true,
+  "output_dir": "",
+  "ntis_modes": ["project", "paper", "patent", "report"],
+  "ntis_count": 10,
+  "kisti_top": 20,
+  "criteria": {
+    "block": 0.85,
+    "improve": 0.65,
+    "crowd_sim": 0.5,
+    "crowd_count": 5,
+    "top_n": 10
+  }
+}
